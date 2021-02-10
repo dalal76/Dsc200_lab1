@@ -17,11 +17,11 @@ library(datasauRus)
 
 ### Lab Exercise
 
-(head( datasaurus _dozen) y-numbers are greater than x and the 
+(head( datasaurus _dozen)y-numbers are greater than x and the 
 summary( datasaurus _dozen)is 1846 long).)
 
 
-##answer for task 2
+##answer for task2
 (correlation coefficient = -0.0645) in dion 
 (the graph like dinosaur)
 
