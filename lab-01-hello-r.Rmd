@@ -24,4 +24,7 @@ summary( datasaurus _dozen)is 1846 long).)
 ##answer for task2
 (correlation coefficient = -0.0645) in dion 
 (the graph like dinosaur)
+##answer for task4
+(correlation coefficient = 0,0683) in circle
+(the graph like circle)
 
