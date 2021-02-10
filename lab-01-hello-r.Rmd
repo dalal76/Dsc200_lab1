@@ -21,7 +21,7 @@ library(datasauRus)
 summary( datasaurus _dozen)is 1846 long).)
 
 
-##answer for task2
+##answer for task 2
 (correlation coefficient = -0.0645) in dion 
 (the graph like dinosaur)
 
