@@ -17,7 +17,7 @@ library(datasauRus)
 
 ### Lab Exercise
 
-(head( datasaurus _dozen)y-numbers are greater than x and the 
+(head( datasaurus _dozen)n y-numbers are greater than x and the 
 summary( datasaurus _dozen)is 1846 long).)
 code:
 circle_data <- datasaurus_dozen %>%
