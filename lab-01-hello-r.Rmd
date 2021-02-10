@@ -19,6 +19,11 @@ library(datasauRus)
 
 (head( datasaurus _dozen)y-numbers are greater than x and the 
 summary( datasaurus _dozen)is 1846 long).)
+code:
+circle_data <- datasaurus_dozen %>%
+ filter(dataset == "circle")
+ggplot(data = circle_data, mapping = aes(x = x, y = y)) +
+geom_point()
 
 
 ##answer for task2
