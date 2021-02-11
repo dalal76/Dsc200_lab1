@@ -204,8 +204,9 @@ library(datasauRus)</code></pre>
 <div id="lab-exercise" class="section level3">
 <h3>Lab Exercise</h3>
 <p>(head( datasaurus _dozen)n y-numbers are greater than x and the summary( datasaurus _dozen)is 1846 long).) code: circle_data &lt;-datasaurus_dozen %&gt;% filter(dataset == “circle”) ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()</p>
-<p>##answer for task2 (correlation coefficient = -0.0645) in dion (the graph like dinosaur) ##answer for task4 (correlation coefficient = 0,0683) in circle (the graph like circle)</p>
+<p>##answer for task2 (correlation coefficient = -0.0645) in dion (the graph like dinosaur) ##answer for task4 (correlation coefficient = 0,0683) in circle (the graph like circle) (correlation coefficient = 0.0630) in circle (the graph like star)</p>
 <p>star_data &lt;- datasaurus_dozen %&gt;% + filter(dataset == “star”) ggplot(data = star_data, mapping = aes(x = x, y = y)) + + geom_point() star_data %&gt;% + summarize(r = cor(x, y)) # A tibble: 1 x 1 r <dbl> 1 -0.0630</p>
+<p>datasaurus_dozen %&gt;% + group_by(dataset) %&gt;% + summarize(r = cor(x, y)) %&gt;% + print(13) # A tibble: 13 x 2 dataset r * <chr> <dbl> 1 away -0.0641 2 bullseye -0.0686 3 circle -0.0683 4 dino -0.0645 5 dots -0.0603 6 h_lines -0.0617 7 high_lines -0.0685 8 slant_down -0.0690 9 slant_up -0.0686 10 star -0.0630 11 v_lines -0.0694 12 wide_lines -0.0666 13 x_shape -0.0656</p>
 </div>
 
 
