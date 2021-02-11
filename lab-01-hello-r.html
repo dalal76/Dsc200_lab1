@@ -205,7 +205,7 @@ library(datasauRus)</code></pre>
 <h3>Lab Exercise</h3>
 <p>(head( datasaurus _dozen)n y-numbers are greater than x and the summary( datasaurus _dozen)is 1846 long).) code: circle_data &lt;-datasaurus_dozen %&gt;% filter(dataset == “circle”) ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()</p>
 <p>##answer for task2 (correlation coefficient = -0.0645) in dion (the graph like dinosaur) ##answer for task4 (correlation coefficient = 0,0683) in circle (the graph like circle)</p>
-<p>star_data &lt;- datasaurus_dozen %&gt;% + filter(dataset == “star”) ggplot(data = star_data, mapping = aes(x = x, y = y)) + + geom_point()</p>
+<p>star_data &lt;- datasaurus_dozen %&gt;% + filter(dataset == “star”) ggplot(data = star_data, mapping = aes(x = x, y = y)) + + geom_point() star_data %&gt;% + summarize(r = cor(x, y)) # A tibble: 1 x 1 r <dbl> 1 -0.0630</p>
 </div>
 
 

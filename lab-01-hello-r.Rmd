@@ -36,4 +36,10 @@ geom_point()
 star_data <- datasaurus_dozen %>%
 +     filter(dataset == "star")
  ggplot(data = star_data, mapping = aes(x = x, y = y)) +
-+     geom_point()
++     geom_point() star_data %>%
++     summarize(r = cor(x, y))
+# A tibble: 1 x 1
+        r
+    <dbl>
+1 -0.0630
+
