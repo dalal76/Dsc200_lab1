@@ -33,3 +33,7 @@ geom_point()
 (correlation coefficient = 0,0683) in circle
 (the graph like circle)
 
+star_data <- datasaurus_dozen %>%
++     filter(dataset == "star")
+ ggplot(data = star_data, mapping = aes(x = x, y = y)) +
++     geom_point()
