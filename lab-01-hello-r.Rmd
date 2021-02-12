@@ -16,7 +16,13 @@ library(datasauRus)
 
 
 ### Lab Exercise
-
+>dino_data <- datasaurus_dozen %>%
+     filter(dataset == "dino")
+> ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
++     geom_point()
+> 
+> dino_data %>%
++     summarize(r = cor(x, y))
 (head( datasaurus _dozen)n y-numbers are greater than x and the 
 summary( datasaurus _dozen)is 1846 long).)
 code:
